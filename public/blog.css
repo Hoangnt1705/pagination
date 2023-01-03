@@ -191,8 +191,7 @@ td {
     text-align: center;
     padding-top: 30px;
 }
-
-.deleteSuccess {
+.deleteSuccess{
     background: orange;
     width: 300px;
     height: 70px;

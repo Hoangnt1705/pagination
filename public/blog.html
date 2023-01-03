@@ -6,52 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
+
+
 <body>
     <form action="" id="formHandle">
         <div id="wrapPanel" class="wrapPanel">
             <ul id="listPanel" class="listPanel">
-                <li><a id="itemPanel1" class="itemPanel" href="">Users Panel</a></li>
-                <li><a id="itemPanel2" class="itemPanel" href="http://localhost:3650/api/v1/blog">Blogs Panel</a></li>
+                <li><a id="itemPanel1" class="itemPanel" href="http://localhost:3650">Users Panel</a></li>
+                <li><a id="itemPanel2" class="itemPanel" href="">Blogs Panel</a></li>
                 <li><a id="itemPanel3" class="itemPanel" href="">Log Out</a></li>
             </ul>
         </div>
-        <div class="UserPanel">
+        <div id='UserPanel' class="UserPanel">
             <h1 class="h1titlePanel">
-                User Panel
+                Blog Panel
             </h1>
             <div id="toastParent">
                 <div id="toast" class="toast">
                 </div>
             </div>
         </div>
+
         <div class="container">
-            <table id="tableInfo">
+            <table id="tableInfo" style="width: 100%">
                 <tr id="field" class="field">
                     <th>#</th>
                     <th>id</th>
-                    <th>Name</th>
-                    <th>Username</th>
-                    <th>Email</th>
-                    <th>Website</th>
-                    <th>Phone</th>
-                    <th>Street</th>
-                    <th>Suite</th>
-                    <th>City</th>
-                    <th>Password</th>
-                    <th>Role</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th>Image</th>
+                    <th>Userid</th>
                     <th>Action</th>
                 </tr>
                 <tbody id="tbody">
                 </tbody>
             </table>
         </div>
-        <img src="" alt="">
         <div id="pagination" class="pagination">
             <!-- Add a link for the first page -->
             <a class="perPage" href="#" data-page="first">First</a>
@@ -73,10 +69,8 @@
             <!-- Add a link for the last page -->
             <a class="perPage" href="#" data-page="last">Last</a>
         </div>
-
-
     </form>
 </body>
-<script src="/index.js"></script>
+<script src="/blog.js"></script>
 
 </html>
